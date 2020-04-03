@@ -1,0 +1,14 @@
+name: Docker image tests
+
+on:
+    push:
+    pull_request:
+        branches: [ master ]
+
+jobs:
+    build-test:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Test the Docker image
+              run: tests.sh
