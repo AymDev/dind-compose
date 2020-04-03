@@ -1,6 +1,5 @@
 # DinD-Compose
 Docker image with Docker (DinD) and Docker Compose.
-The image
 
 ## How to use
 Just pull the image from **Docker Hub**:
